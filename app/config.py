@@ -58,11 +58,11 @@ class Settings(BaseSettings):
     cdn_officejs: bool = False
     log_level: str = "INFO"
     # These UUIDs will be overwritten by: python run.py init
-    manifest_id_dev: UUID4 = "0a856eb1-91ab-4f38-b757-23fbe1f73130"
-    manifest_id_qa: UUID4 = "9cda34b1-af68-4dc6-b97c-e63ef6284671"
-    manifest_id_uat: UUID4 = "70428e53-8113-421c-8fe2-9b74fcb94ee5"
-    manifest_id_staging: UUID4 = "34041f4f-9cb4-4830-afb5-db44b2a70e0e"
-    manifest_id_prod: UUID4 = "4f342d85-3a49-41cb-90a5-37b1f2219040"
+    manifest_id_dev: UUID4 = "82facae5-405e-4dc9-9248-e448b1486b40"
+    manifest_id_qa: UUID4 = "2e29ed86-29da-4ae7-b19b-6f5a3e337a12"
+    manifest_id_uat: UUID4 = "deb97255-318a-400a-9be1-d4bcb4e2be60"
+    manifest_id_staging: UUID4 = "b58c7eb4-38a5-4fff-83b6-46bc02834a87"
+    manifest_id_prod: UUID4 = "0713ec5d-73a8-40f2-ad08-25eb73015220"
     project_name: str = "xlwings Server"
     public_addin_store: Optional[bool] = None  # Deprecated. Use cdn_officejs instead.
     request_timeout: Optional[int] = 300  # in seconds
